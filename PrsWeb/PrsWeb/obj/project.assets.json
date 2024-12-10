@@ -7722,11 +7722,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Sarika\\Max\\c-sharp-repos\\c-sharp-class-demos\\PrsWeb\\PrsWeb\\PrsWeb.csproj",
+      "projectUniqueName": "C:\\Sarika\\Max\\c-sharp-repos\\CapstoneProject\\PrsWeb\\PrsWeb\\PrsWeb.csproj",
       "projectName": "PrsWeb",
-      "projectPath": "C:\\Sarika\\Max\\c-sharp-repos\\c-sharp-class-demos\\PrsWeb\\PrsWeb\\PrsWeb.csproj",
+      "projectPath": "C:\\Sarika\\Max\\c-sharp-repos\\CapstoneProject\\PrsWeb\\PrsWeb\\PrsWeb.csproj",
       "packagesPath": "C:\\Users\\mohan\\.nuget\\packages\\",
-      "outputPath": "C:\\Sarika\\Max\\c-sharp-repos\\c-sharp-class-demos\\PrsWeb\\PrsWeb\\obj\\",
+      "outputPath": "C:\\Sarika\\Max\\c-sharp-repos\\CapstoneProject\\PrsWeb\\PrsWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mohan\\AppData\\Roaming\\NuGet\\NuGet.Config",

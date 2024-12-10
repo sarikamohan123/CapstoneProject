@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cPDoSA3w6XY=",
+  "dgSpecHash": "Tg1tRXteyE8=",
   "success": true,
-  "projectFilePath": "C:\\Sarika\\Max\\c-sharp-repos\\c-sharp-class-demos\\PrsWeb\\PrsWeb\\PrsWeb.csproj",
+  "projectFilePath": "C:\\Sarika\\Max\\c-sharp-repos\\CapstoneProject\\PrsWeb\\PrsWeb\\PrsWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohan\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\mohan\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

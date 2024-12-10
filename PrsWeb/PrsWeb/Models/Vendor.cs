@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace PrsWeb.Models;
 
@@ -45,7 +46,8 @@ public partial class Vendor
     [StringLength(100)]
     [Unicode(false)]
     public string Email { get; set; } = null!;
-
+    [JsonIgnore]
     [InverseProperty("Vendor")]
+    
     public virtual ICollection<Product> Products { get; set; } = new List<Product>();
 }

@@ -35,13 +35,13 @@ public partial class Product
     [InverseProperty("Product")]
     [JsonIgnore]
     public virtual ICollection<LineItem> LineItems { get; set; } = new List<LineItem>();
-
+    
     [ForeignKey("VendorId")]
     [InverseProperty("Products")]
-    public virtual Vendor? Vendor { get; set; } = null!;
+    public virtual Vendor Vendor { get; set; } = null!;
 
     //[JsonIgnore]
     //[InverseProperty("Product")]
-    //public virtual ICollection<LineItem> LineItems { get; set; } = new List<LineItem>();
+   // public virtual ICollection<LineItem> LineItems { get; set; } = new List<LineItem>();
 
 }

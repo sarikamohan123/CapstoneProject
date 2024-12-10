@@ -28,13 +28,26 @@ namespace PrsWeb.Controllers
         {
             var vendor = await _context.Vendors.FindAsync(id);
 
-            if (vendor == null)
-            {
-                return NotFound();
-            }
+           if (vendor == null)
+           {
+               return NotFound();
+           }
 
-            return vendor;
+           return vendor;
         }
+        //// GET: api/Vendors/5
+        //[HttpGet("{id}")]
+        //public async Task<ActionResult<Vendor>> GetVendor(int id)
+        //{
+        //    var vendor = await _context.Vendors.Include(v => v.Products).FirstOrDefaultAsync(v => v.Id == id);
+        //    if (vendor == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    return vendor;
+        //}
+
 
         // PUT: api/Vendors/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
